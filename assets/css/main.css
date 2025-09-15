@@ -1842,11 +1842,26 @@ h2.major {
   text-align: center;
 }
 
-<ul class="instrument-actions">
-  <li><a href="#kontakt" class="button probestunde">Vereinbare jetzt eine Probestunde</a></li>
-  <li><a href="gitarre.html" class="button">Zum Gitarren-Wiki</a></li>
-</ul>
-.button.white {
+<ul
+  class="instrument-actions"
+  > <li
+  > <a
+  href="#kontakt"
+  class="button probestunde"
+  > Vereinbare
+  jetzt
+  eine
+  Probestunde</a
+  > </li
+  > <li
+  > <a
+  href="gitarre.html"
+  class="button"
+  > Zum
+  Gitarren-Wiki</a
+  > </li
+  > </ul
+  > .button.white {
   background-color: #fff;
   color: #1b1f22 !important;
   font-weight: 600;
@@ -1858,6 +1873,6 @@ h2.major {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
   letter-spacing: 0.03em;
-  text-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   text-align: left;
 }
