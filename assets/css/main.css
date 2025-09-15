@@ -1529,7 +1529,6 @@ body.is-article-visible #header {
   -webkit-filter: blur(0.1rem);
   -ms-filter: blur(0.1rem);
   filter: blur(0.1rem);
-  opacity: 0;
 }
 
 body.is-preload #header {
@@ -1777,7 +1776,6 @@ body.is-article-visible #footer {
   -webkit-filter: blur(0.1rem);
   -ms-filter: blur(0.1rem);
   filter: blur(0.1rem);
-  opacity: 0;
 }
 
 body.is-preload #footer {
@@ -1802,4 +1800,64 @@ footer address a[itemprop] {
 }
 h2.major {
   font-size: 1.75rem;
+}
+.instrument-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2.5rem;
+}
+.instrument-actions .button {
+  width: 100%;
+  min-width: 180px;
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+.instrument-actions li {
+  flex: 1 1 0;
+  display: flex;
+}
+.button.probestunde {
+  background-color: #f6944b;
+  color: #fff !important;
+  font-weight: 600;
+  border: none;
+}
+.instrument-actions.vertical {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  margin-bottom: 2.5rem;
+}
+.instrument-actions.vertical .button {
+  width: 100%;
+  min-width: 180px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  white-space: normal;
+  word-break: break-word;
+  padding: 1em 0.5em;
+  letter-spacing: 0.08em;
+  line-height: 1.3;
+  text-align: center;
+}
+
+<ul class="instrument-actions">
+  <li><a href="#kontakt" class="button probestunde">Vereinbare jetzt eine Probestunde</a></li>
+  <li><a href="gitarre.html" class="button">Zum Gitarren-Wiki</a></li>
+</ul>
+.button.white {
+  background-color: #fff;
+  color: #1b1f22 !important;
+  font-weight: 600;
+}
+.instrument-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f6944b;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  letter-spacing: 0.03em;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  text-align: left;
 }
