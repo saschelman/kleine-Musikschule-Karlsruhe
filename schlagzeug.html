@@ -71,6 +71,34 @@
         background-image: url("img/drum-wallpaper.jpg") !important;
       }
     </style>
+    <!-- Breadcrumbs Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kleine-musikschule.de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Schlagzeug",
+            "item": "https://kleine-musikschule.de/schlagzeug.html"
+          }
+        ]
+      }
+    </script>
+    <!-- Preload Nunito font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" />
+    </noscript>
   </head>
   <body class="is-preload wiki-page">
     <div id="wrapper">
@@ -174,7 +202,7 @@
             Loop-Pads und digitale Technik, um ihren Sound zu erweitern.
           </p>
 
-          <img src="img/perc.jpg" alt="Schlagzeug" class="ausruestung-img" />
+          <img src="img/perc.jpg" alt="Schlagzeug" class="ausruestung-img" loading="lazy" decoding="async" />
         </article>
 
         <article id="drummer">
@@ -209,7 +237,7 @@
               class="ug-link"
               aria-label="John Bonham auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
 
@@ -236,7 +264,7 @@
               class="ug-link"
               aria-label="Buddy Rich auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
 
@@ -265,7 +293,7 @@
               class="ug-link"
               aria-label="Sheila E. auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
 
@@ -293,7 +321,7 @@
               class="ug-link"
               aria-label="Ringo Starr auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
 
@@ -322,7 +350,7 @@
               class="ug-link"
               aria-label="Travis Barker auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
         </article>
@@ -357,7 +385,7 @@
                       href="https://www.youtube.com/watch?v=1SZle1skb84"
                       target="_blank"
                       class="ug-link"
-                      ><img src="img/open_in_new.png" alt="Link zu Tutorial"
+                      ><img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16"
                     /></a>
                   </td>
                 </tr>
@@ -373,7 +401,7 @@
                       href="https://www.youtube.com/watch?v=xUdEFmZfGb8"
                       target="_blank"
                       class="ug-link"
-                      ><img src="img/open_in_new.png" alt="Link zu Tutorial"
+                      ><img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16"
                     /></a>
                   </td>
                 </tr>
@@ -389,7 +417,7 @@
                       href="https://www.youtube.com/watch?v=Lz0Oc0B0a0I"
                       target="_blank"
                       class="ug-link"
-                      ><img src="img/open_in_new.png" alt="Link zu Tutorial"
+                      ><img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16"
                     /></a>
                   </td>
                 </tr>
@@ -405,7 +433,7 @@
                       href="https://www.youtube.com/watch?v=wgbxj7A4TYQ"
                       target="_blank"
                       class="ug-link"
-                      ><img src="img/open_in_new.png" alt="Link zu Tutorial"
+                      ><img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16"
                     /></a>
                   </td>
                 </tr>
@@ -421,7 +449,7 @@
                       href="https://www.youtube.com/watch?v=O8vzbezVru4"
                       target="_blank"
                       class="ug-link"
-                      ><img src="img/open_in_new.png" alt="Link zu Tutorial"
+                      ><img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16"
                     /></a>
                   </td>
                 </tr>

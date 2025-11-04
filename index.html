@@ -18,6 +18,14 @@
   <meta property="og:url" content="https://kleine-musikschule.de/" />
   <meta property="og:type" content="website" />
 
+	<!-- Preload Nunito font -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+	<noscript>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" />
+	</noscript>
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -35,6 +43,55 @@
     "url": "https://kleine-musikschule.de/"
   }
   </script>
+	<!-- FAQ Schema -->
+	<script type="application/ld+json">
+	{
+		"@context": "https://schema.org",
+		"@type": "FAQPage",
+		"mainEntity": [
+			{
+				"@type": "Question",
+				"name": "Bietet ihr eine kostenlose Probestunde an?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Ja, wir bieten eine kostenlose Probestunde an. Schreibe uns einfach über den Kontaktbereich und wir melden uns schnell zurück."
+				}
+			},
+			{
+				"@type": "Question",
+				"name": "Welche Instrumente kann ich lernen?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Wir bieten Unterricht für Gitarre, E-Bass, Klavier und Ukulele an. Weitere Instrumente sind auf Anfrage möglich."
+				}
+			},
+			{
+				"@type": "Question",
+				"name": "Kommt ihr auch für Unterricht nach Hause?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Ja, als mobile Musikschule kommen wir auf Wunsch zu dir nach Hause. Alternativ unterrichten wir auch an unseren Locations."
+				}
+			},
+			{
+				"@type": "Question",
+				"name": "Für welche Altersgruppen ist der Unterricht geeignet?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Unser Unterricht richtet sich an Kinder, Erwachsene, Anfänger, Fortgeschrittene und Senioren. Wir passen uns deinem Tempo an."
+				}
+			},
+			{
+				"@type": "Question",
+				"name": "Wie sind die Preise?",
+				"acceptedAnswer": {
+					"@type": "Answer",
+					"text": "Unsere Preise findest du im Bereich 'Preise' auf der Startseite. Schreib uns gerne für individuelle Angebote."
+				}
+			}
+		]
+	}
+	</script>
 </head>
 <body class="is-preload">
 
@@ -1424,11 +1481,11 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 		<div id="bg"></div>
 
 		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js"></script>
-		<script src="assets/js/util.js"></script>
-		<script src="assets/js/main.js"></script>
+		<script src="assets/js/jquery.min.js" defer></script>
+		<script src="assets/js/browser.min.js" defer></script>
+		<script src="assets/js/breakpoints.min.js" defer></script>
+		<script src="assets/js/util.js" defer></script>
+		<script src="assets/js/main.js" defer></script>
 
 	</body>
 </html>

@@ -68,6 +68,34 @@
         background-image: url("img/basswallpaper.jpg") !important;
       }
     </style>
+    <!-- Breadcrumbs Schema -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Home",
+            "item": "https://kleine-musikschule.de/"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "E-Bass",
+            "item": "https://kleine-musikschule.de/ebass.html"
+          }
+        ]
+      }
+    </script>
+    <!-- Preload Nunito font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" onload="this.onload=null;this.rel='stylesheet'" />
+    <noscript>
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600&display=swap" />
+    </noscript>
   </head>
   <body class="is-preload wiki-page">
     <div id="wrapper">
@@ -200,7 +228,7 @@
               class="ug-link"
               aria-label="Jaco Pastorius auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
 
@@ -225,7 +253,7 @@
               class="ug-link"
               aria-label="Flea auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
 
@@ -249,7 +277,7 @@
               class="ug-link"
               aria-label="Marcus Miller auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
 
@@ -275,7 +303,7 @@
               class="ug-link"
               aria-label="Paul McCartney auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
 
@@ -300,7 +328,7 @@
               class="ug-link"
               aria-label="Carol Kaye auf YouTube"
             >
-              <img src="img/open_in_new.png" alt="YouTube-Link öffnen" />
+              <img src="img/open_in_new.png" alt="" aria-hidden="true" width="16" height="16" />
             </a>
           </p>
         </article>
