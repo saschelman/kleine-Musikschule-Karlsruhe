@@ -1,43 +1,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-  <!-- Created manually based on your navigation -->
+  <!-- Auto-maintained sitemap: list only crawlable page URLs (no hash fragments) -->
   <url>
     <loc>https://kleine-musikschule.de/</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://kleine-musikschule.de/#ueber_uns</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kleine-musikschule.de/gitarre.html</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://kleine-musikschule.de/#lehre</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kleine-musikschule.de/ebass.html</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://kleine-musikschule.de/#angebot</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kleine-musikschule.de/klavier.html</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://kleine-musikschule.de/#preise</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
-    <priority>0.8</priority>
+    <loc>https://kleine-musikschule.de/ukulele.html</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://kleine-musikschule.de/#kontakt</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://kleine-musikschule.de/#daten</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://kleine-musikschule.de/#impressum</loc>
-    <lastmod>2025-01-16T14:40:00+00:00</lastmod>
-    <priority>0.5</priority>
+    <loc>https://kleine-musikschule.de/schlagzeug.html</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>
