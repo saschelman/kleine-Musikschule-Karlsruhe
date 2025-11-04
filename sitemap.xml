@@ -1,39 +1,66 @@
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Auto-maintained sitemap: list only crawlable page URLs (no hash fragments) -->
   <url>
     <loc>https://kleine-musikschule.de/</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://kleine-musikschule.de/img/logo_small.png</image:loc>
+      <image:title>Die kleine Musikschule Karlsruhe</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/gitarre.html</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://kleine-musikschule.de/img/guitar-wallpaper.jpg</image:loc>
+      <image:title>Gitarrenschule Karlsruhe</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/ebass.html</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://kleine-musikschule.de/img/basswallpaper.jpg</image:loc>
+      <image:title>E-Bass Schule Karlsruhe</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/klavier.html</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://kleine-musikschule.de/img/pianowallpaper.jpg</image:loc>
+      <image:title>Klavierschule Karlsruhe</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/ukulele.html</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://kleine-musikschule.de/img/ukulelewallpaper.jpg</image:loc>
+      <image:title>Ukuleleschule Karlsruhe</image:title>
+    </image:image>
   </url>
   <url>
     <loc>https://kleine-musikschule.de/schlagzeug.html</loc>
     <lastmod>2025-11-04T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://kleine-musikschule.de/img/drum-wallpaper.jpg</image:loc>
+      <image:title>Schlagzeugschule Karlsruhe</image:title>
+    </image:image>
   </url>
 </urlset>
