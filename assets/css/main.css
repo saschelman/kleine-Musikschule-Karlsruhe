@@ -1842,30 +1842,12 @@ h2.major {
   text-align: center;
 }
 
-<ul
-  class="instrument-actions"
-  > <li
-  > <a
-  href="#kontakt"
-  class="button probestunde"
-  > Vereinbare
-  jetzt
-  eine
-  Probestunde</a
-  > </li
-  > <li
-  > <a
-  href="gitarre.html"
-  class="button"
-  > Zum
-  Gitarren-Wiki</a
-  > </li
-  > </ul
-  > .button.white {
+.button.white {
   background-color: #fff;
   color: #1b1f22 !important;
   font-weight: 600;
 }
+
 .instrument-title {
   font-size: 2rem;
   font-weight: 700;
@@ -1875,4 +1857,71 @@ h2.major {
   letter-spacing: 0.03em;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
   text-align: left;
+}
+
+/* Wiki Pages Styles */
+.wiki-page #main {
+  opacity: 1 !important;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+
+.wiki-page #main article {
+  transform: none !important;
+  opacity: 1 !important;
+  position: relative !important;
+  width: 100% !important;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wiki-page #main article ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.wiki-page #main article ul li {
+  padding-left: 1.5em;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+
+.wiki-page #main article ul li:before {
+  content: "✓";
+  color: #f6944b;
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-weight: bold;
+}
+
+.wiki-page .ug-link {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.wiki-page .ug-link img {
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+}
+
+.wiki-page .artist-link {
+  margin: 0.2em 0 1.6em;
+  font-size: 0.95em;
+}
+
+.wiki-page .artist-link a {
+  margin-left: 0.5em;
+}
+
+.wiki-page .ausruestung-img {
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  margin: 1em auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 }
