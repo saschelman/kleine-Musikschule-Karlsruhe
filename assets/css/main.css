@@ -1279,6 +1279,7 @@ button {
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
   transform: scale(1);
+  backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   position: fixed;
   top: 0;
@@ -1724,7 +1725,7 @@ body.is-preload #header .content .inner {
     -webkit-transform 0.325s ease-in-out;
   -ms-transition: opacity 0.325s ease-in-out, -ms-transform 0.325s ease-in-out;
   transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
-  padding: 4.5rem 2.5rem 1.5rem 2.5rem;
+  padding: 4.5rem 4.5rem 1.5rem 2.5rem;
   position: relative;
   width: 40rem;
   max-width: 100%;
@@ -1783,7 +1784,7 @@ body.is-preload #header .content .inner {
 
 @media screen and (max-width: 736px) {
   #main article {
-    padding: 3.5rem 2rem 0.5rem 2rem;
+    padding: 3.5rem 4rem 0.5rem 2rem;
   }
 
   #main article .close:before {
@@ -1797,7 +1798,7 @@ body.is-preload #header .content .inner {
 
 @media screen and (max-width: 480px) {
   #main article {
-    padding: 3rem 1.5rem 0.5rem 1.5rem;
+    padding: 3rem 4rem 0.5rem 1.5rem;
   }
 }
 
@@ -1988,7 +1989,7 @@ h2.major {
 /* Responsive adjustments for wiki pages on mobile */
 @media screen and (max-width: 736px) {
   .wiki-page #main article {
-    padding: 1.5em;
+    padding: 1.5em 4rem 1.5em 1.5em;
     max-width: 100%;
   }
 
@@ -2003,7 +2004,7 @@ h2.major {
 
 @media screen and (max-width: 480px) {
   .wiki-page #main article {
-    padding: 1em;
+    padding: 1em 4rem 1em 1em;
   }
 
   .wiki-page #main article h2.major {
