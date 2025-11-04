@@ -1,3 +1,45 @@
+/* Breadcrumbs - visible, minimalist, modern */
+.breadcrumbs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.2rem 0 0.7rem 0;
+  padding: 0.25rem 1rem;
+  background: rgba(30, 34, 40, 0.85);
+  border-radius: 1.2rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  font-size: 0.85rem;
+  font-family: "Nunito", sans-serif;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
+.breadcrumbs ul {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.breadcrumbs li {
+  color: #f6944b;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+}
+.breadcrumbs li:not(:last-child)::after {
+  content: "/";
+  color: #aaa;
+  margin: 0 0.5rem;
+}
+.breadcrumbs a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+.breadcrumbs a:hover {
+  color: #f6944b;
+  text-decoration: underline;
+}
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;600&display=swap");
 
