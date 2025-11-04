@@ -30,7 +30,9 @@
       // Breadcrumbs fade-in after intro
       var $bc = $(".breadcrumbs");
       if ($bc.length) {
-        setTimeout(function(){ $bc.css("opacity",1); }, 600);
+        setTimeout(function () {
+          $bc.css("opacity", 1);
+        }, 600);
       }
     }, 100);
   });
