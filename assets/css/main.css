@@ -1140,6 +1140,36 @@ ul.icons li a:active {
   background-color: rgba(255, 255, 255, 0.175);
 }
 
+/* Contact section: filled orange circles with white SVG icons */
+#kontakt ul.icons li a.contact-icon {
+  background-color: #f6944b !important;
+  color: #ffffff !important;
+  box-shadow: none !important;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#kontakt ul.icons li a.contact-icon svg {
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: currentColor;
+  display: block;
+}
+
+#kontakt ul.icons li a.contact-icon:hover {
+  background-color: #f58328 !important;
+}
+
+#kontakt ul.icons li a.contact-icon .label {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+}
+
 /* Table */
 
 .table-wrapper {
