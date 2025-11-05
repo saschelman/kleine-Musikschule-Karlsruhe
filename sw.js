@@ -1,13 +1,18 @@
 // Service Worker for Die kleine Musikschule Karlsruhe
 // Provides offline capability and faster repeat visits
 
-const CACHE_NAME = "musikschule-v1";
+const CACHE_NAME = "musikschule-v2";
 const OFFLINE_URL = "/index.html";
 
 // Files to cache on install
 const STATIC_CACHE = [
   "/",
   "/index.html",
+  "/gitarre.html",
+  "/ukulele.html",
+  "/ebass.html",
+  "/klavier.html",
+  "/schlagzeug.html",
   "/assets/css/main.min.css",
   "/assets/css/custom-enhancements.css",
   "/assets/js/jquery.min.js",

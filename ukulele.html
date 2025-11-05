@@ -67,6 +67,31 @@
       html body #bg:after {
         background-image: url("img/ukulelewallpaper.jpg") !important;
       }
+      /* Normalize bullets on wiki pages */
+      .wiki-page #main ul {
+        list-style-type: disc;
+        list-style-position: outside;
+        margin: 0 0 1.2rem 0;
+        padding-left: 2rem;
+      }
+      .wiki-page #main ul > li {
+        margin: 0.5rem 0;
+        padding-left: 0.5rem;
+        line-height: 1.7;
+        position: relative;
+      }
+      /* Override theme checkmark */
+      .wiki-page #main article ul li:before {
+        content: none !important;
+        display: none !important;
+      }
+      .wiki-page #main ul ul {
+        list-style-type: circle;
+        margin-left: 1.5rem;
+      }
+      .wiki-page #main ul li::marker {
+        color: #f6944b;
+      }
     </style>
     <!-- Breadcrumbs Schema -->
     <script type="application/ld+json">
@@ -714,20 +739,20 @@
         </article>
       </div>
 
-      <nav
-        class="breadcrumbs"
-        aria-label="Breadcrumb"
-        style="
-          opacity: 0;
-          transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1);
-        "
-      >
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li>Ukulele</li>
-        </ul>
-      </nav>
       <footer id="footer">
+        <nav
+          class="breadcrumbs"
+          aria-label="Breadcrumb"
+          style="
+            opacity: 0;
+            transition: opacity 0.7s cubic-bezier(0.4, 0, 0.2, 1);
+          "
+        >
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li>Ukulele</li>
+          </ul>
+        </nav>
         <p class="copyright">
           &copy; Die kleine Musikschule Karlsruhe. Design: HTML5 UP.
         </p>

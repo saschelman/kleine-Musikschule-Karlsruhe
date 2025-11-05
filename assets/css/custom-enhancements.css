@@ -85,6 +85,27 @@ html {
   margin-top: 1.5rem !important;
 }
 
+/* ========== Impressum inline link (Kontakt) ========== */
+#kontakt .impressum-text-link {
+  margin-top: 0.75rem;
+}
+
+#kontakt .impressum-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+#kontakt .impressum-inline svg {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+}
+
+#kontakt .impressum-inline:hover {
+  color: #f6944b;
+}
+
 .review-container {
   background: rgba(246, 148, 75, 0.08) !important;
   backdrop-filter: blur(10px) !important;
@@ -304,4 +325,17 @@ input[type="radio"] {
     opacity: 1;
     transform: translateY(0);
   }
+}
+
+/* ========== Heading with icon ========== */
+.heading-with-icon {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.heading-with-icon svg {
+  width: 1.25em;
+  height: 1.25em;
+  fill: currentColor;
 }
