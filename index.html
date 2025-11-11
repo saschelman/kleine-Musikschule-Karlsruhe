@@ -429,72 +429,93 @@
                 
 				<!-- preise -->
 				<article id="preise">
-<h2 class="major" style="max-width: 100%; white-space: normal; overflow-wrap: break-word;">
-  Preise 
-</h2>
+<h2 class="major" style="max-width: 100%; white-space: normal; overflow-wrap: break-word;">Preise</h2>
+<style>
+.preise-table {
+	width: 100%;
+	border-collapse: separate;
+	border-spacing: 0;
+	background: rgba(255,255,255,0.07);
+	border-radius: 12px;
+	overflow: hidden;
+	margin-bottom: 2rem;
+	box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+}
+.preise-table th, .preise-table td {
+	padding: 1rem 0.7rem;
+	text-align: left;
+	font-size: 1rem;
+}
+.preise-table th {
+	background: rgba(246,148,75,0.13);
+	color: #f6944b;
+	font-weight: 700;
+	border-bottom: 2px solid #f6944b;
+}
+.preise-table tr:not(:last-child) td {
+	border-bottom: 1px solid #eee;
+}
+.preise-table td {
+	color: #fff;
+}
+.preise-table .sub {
+	font-size: 0.95em;
+	color: #f6944b;
+}
+@media (max-width: 600px) {
+	.preise-table th, .preise-table td { font-size: 0.95em; padding: 0.7rem 0.4rem; }
+}
+</style>
 
-					
+<table class="preise-table">
+	<thead>
+		<tr>
+			<th>Dauer / Einheit</th>
+			<th>Preis / Monat</th>
+			<th>Hausbesuch / Monat</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>30 Min.</td>
+			<td>60&nbsp;€</td>
+			<td>90&nbsp;€</td>
+		</tr>
+		<tr>
+			<td>45 Min.</td>
+			<td>90&nbsp;€</td>
+			<td>120&nbsp;€</td>
+		</tr>
+	</tbody>
+</table>
+<div class="sub" style="margin-bottom:1.5rem;">Die monatlichen Gebühren basieren auf einer Jahreskalkulation. Der Gesamtbetrag wird auf zwölf Monate verteilt. Du entscheidest, ob du Unterrichtseinheiten von 30 oder 45 Minuten möchtest.</div>
 
-					<div id="columnleft" class="column">
-						<h3>Dauer / Einheit</h3>
-						<h4>30 Min.</h4>
-						<h4>45 Min.</h4>
-					</div>
-					<div id="columnright" class="column">
-						<h3>Preis / mtl.</h3>
-						<h4>60 Euro</h4>
-						<h4>90 Euro</h4>
+<h3 style="color:#f6944b;">10er-Karte – maximale Flexibilität! 🎟️</h3>
+<div class="sub" style="margin-bottom:1rem;">Mit der 10er-Karte bist du maximal flexibel: Du kannst frei wählen, wann und wie oft du Unterricht nimmst – perfekt für einen individuellen Zeitplan.</div>
+<table class="preise-table">
+	<thead>
+		<tr>
+			<th>Dauer / Einheit</th>
+			<th>Preis einmalig</th>
+			<th>Hausbesuch einmalig</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>30 Min.</td>
+			<td>200&nbsp;€</td>
+			<td>300&nbsp;€</td>
+		</tr>
+		<tr>
+			<td>45 Min.</td>
+			<td>300&nbsp;€</td>
+			<td>450&nbsp;€</td>
+		</tr>
+	</tbody>
+</table>
+<div class="sub" style="margin-bottom:1.5rem;">Die genannten Preise gelten für Unterricht innerhalb von Karlsruhe. Außerhalb der Stadt können zusätzliche Kosten entstehen.</div>
 
-					</div>
-
-			
-
-					<h4>Bei Hausbesuchen:</h4>
-					<div id="columnleft" class="column">
-						<h4>30 Min.</h4>
-						<h4>45 Min.</h4>
-					</div>
-					<div id="columnright" class="column">
-						<h4>90 Euro</h4>
-						<h4>120 Euro</h4>
-					</div>
-
-					<p>Die monatlichen Entgelte beruhen auf einer Jahreskalkulation, wobei der
-						Jahresbetrag durch zwölf Monate geteilt wird. Dabei kannst du entscheiden,
-						ob du 30 oder 45 Minuten Einheiten willst.</p>
-
-					<h3>10er-Karte – maximale Flexibilität! 🎟️</h3>
-					<p>Du kannst nicht jede Woche kommen? Die 10er-Karte gibt dir die
-						Flexibilität, die du brauchst. Du kannst selbst entscheiden, wann und wie
-						oft du Unterricht nehmen möchtest – ideal für deinen individuellen
-						Zeitplan!</p>
-
-					<div id="columnleft" class="column">
-						<h3>Dauer / Einheit</h3>
-						<h4>30 Min.</h4>
-						<h4>45 Min.</h4>
-					</div>
-					<div id="columnright" class="column">
-						<h3>Preis einmalig</h3>
-						<h4>200 Euro</h4>
-						<h4>300 Euro</h4>
-					</div>
-					<h4>Bei Hausbesuchen:</h4>
-					<div id="columnleft" class="column">
-						<h4>30 Min.</h4>
-						<h4>45 Min.</h4>
-					</div>
-
-					<div id="columnright" class="column">
-						<h4>300 Euro</h4>
-						<h4>450 Euro</h4>
-					</div>
-
-					<p>Die folgenden Preise gelten für Unterricht innerhalb der Stadt
-						Karlsruhe. Außerhalb von Karlsruhe fallen zusätzliche Kosten an.</p>
-
-					<p>Bei weiteren Fragen oder um eine Probestunde zu vereinbaren, kannst du
-						uns gerne eine <a href="#kontakt">Nachricht</a> dalassen!</p>
+<p>Bei Fragen oder zur Vereinbarung einer kostenlosen Probestunde sende uns gerne eine <a href="#kontakt">Nachricht</a>!</p>
 				</article>
 
 				<!-- kontakt -->
@@ -1571,6 +1592,57 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 	<script src="assets/js/breakpoints.min.js" defer></script>
 	<script src="assets/js/util.min.js" defer></script>
 	<script src="assets/js/main.min.js" defer></script>
+
+	<!-- Inline: robustly disable center divider when nav wraps to multiple rows/column -->
+	<script>
+	  // Disable the framework's center divider when the nav items wrap.
+	  // This keeps the vertical line only on true single-row layouts.
+	  window.addEventListener('load', function () {
+	    var nav = document.querySelector('#header nav');
+	    if (!nav) return;
+	    var ul = nav.querySelector('ul');
+	    if (!ul) return;
+	    var items = Array.prototype.slice.call(ul.children || []);
+
+	    function isWrapped() {
+	      if (!items.length) return false;
+	      var top0 = items[0].offsetTop;
+	      for (var i = 1; i < items.length; i++) {
+	        if (Math.abs(items[i].offsetTop - top0) > 2) return true; // different row
+	      }
+	      return false;
+	    }
+
+	    function applyNavMode() {
+	      var wrapped = isWrapped();
+	      // Clear middle markers first
+	      items.forEach(function (li) { li.classList.remove('is-middle'); });
+	      if (wrapped) {
+	        // Remove the class that draws the vertical divider
+	        nav.classList.remove('use-middle');
+	        nav.classList.add('nav-multiline');
+	      } else {
+	        nav.classList.remove('nav-multiline');
+	        // Restore center divider only for even count and single row
+	        if (items.length % 2 === 0) {
+	          nav.classList.add('use-middle');
+	          var mid = Math.floor(items.length / 2);
+	          if (items[mid]) items[mid].classList.add('is-middle');
+	        } else {
+	          nav.classList.remove('use-middle');
+	        }
+	      }
+	    }
+
+	    // Initial and on resize (debounced)
+	    applyNavMode();
+	    var t;
+	    window.addEventListener('resize', function () {
+	      clearTimeout(t);
+	      t = setTimeout(applyNavMode, 120);
+	    });
+	  });
+	</script>
 
 	<!-- Inline: enhance contact form UX with AJAX submit and status -->
 	<script>
