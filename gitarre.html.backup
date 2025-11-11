@@ -515,145 +515,75 @@
         </article>
 
         <article id="ausruestung">
-          <h2 class="major">Ausrüstung: Dein Einstieg zum perfekten Sound</h2>
+          <h2 class="major">Ausrüstung: Kurz & sinnvoll</h2>
 
           <p>
-            Klarer Überblick statt Buzzwords: So findest du schnell das passende
-            Instrument, einen sinnvollen Amp und das richtige Zubehör – mit
-            Bildern, die zeigen, worum es geht.
+            Starte mit gut spielbarem Instrument, leisem Üben zuhause und ein
+            paar Basics. Alles andere kann warten.
           </p>
 
-          <h3>1. Gitarrentypen: Akustisch vs. Elektrisch</h3>
-          <h4>Akustische Gitarren</h4>
-          <p>
-            Akustikgitarren klingen ganz ohne Verstärker. Ideal für Zuhause,
-            Singer‑Songwriter und entspanntes Spielen.
-          </p>
-          <img
-            src="img/akustikgitarre-auf-einem-weissen-hintergrund-draufsicht-kopienraum.jpg"
-            alt="Akustikgitarre Draufsicht"
-            class="ausruestung-img"
-          />
+          <h3>Essentials</h3>
           <ul>
             <li>
-              <strong>Konzertgitarre (Nylonsaiten):</strong> Sehr angenehm für
-              Anfänger und Kinder. Weiche Saiten, breiter Hals, sauber zu
-              greifen. Klingt warm – perfekt für Klassik, Flamenco, Fingerstyle.
+              <strong>Akustik:</strong> Konzertgitarre (Nylon, sanft) oder
+              Westerngitarre (Stahl, lauter). Wichtig:
+              <strong>niedrige Saitenlage</strong>, keine scheppernden Bünde.
             </li>
             <li>
-              <strong>Westerngitarre (Stahlsaiten):</strong> Der Allround‑Sound
-              für Pop, Rock, Folk. Brillant und lauter als Nylon. Achte auf
-              <em>niedrige Saitenlage</em> für komfortables Spiel.
+              <strong>E‑Gitarre:</strong> Gitarre +
+              <strong>Modeling‑Übungsamp</strong> mit Kopfhörer. 1 gutes Kabel,
+              <strong>Clip‑Tuner</strong>, <strong>Gurt</strong>, Picks
+              (0.6–1.0 mm).
+            </li>
+            <li>
+              <strong>Saiten:</strong> E‑Gitarre .009–.042 (leicht) oder
+              .010–.046 (Standard). Akustik .011–.052 (komfort) / .012–.054
+              (voller).
             </li>
           </ul>
 
-          <h4>Elektrische Gitarren (E‑Gitarre)</h4>
-          <p>
-            Mit Verstärker entfaltet sich der Sound – von glasklar bis kräftig
-            verzerrt. Häufig leichter spielbar als Akustikgitarren.
-          </p>
-          <img
-            src="img/elektrische-gitarre-stillleben.jpg"
-            alt="Elektrische Gitarre Stillleben"
-            class="ausruestung-img"
-          />
+          <h3>Empfehlungen (Budget)</h3>
           <ul>
             <li>
-              <strong>Solidbody (Massivkorpus):</strong> Standard für Rock,
-              Metal, Funk, Blues. Wenig Rückkopplung, viel Sustain (z. B.
-              Stratocaster, Les Paul).
+              <strong>Akustik 150–300 €:</strong> Yamaha F/FG‑Serie, Fender
+              CD‑60S, Cort Earth. Beim Händler <strong>Setup</strong> prüfen
+              lassen.
             </li>
             <li>
-              <strong>Semi‑Hollow (Halbresonanz):</strong> Luftiger, runder Ton
-              mit Hohlraum im Korpus (z. B. ES‑335). Beliebt für Blues, Jazz,
-              Indie.
+              <strong>E‑Gitarre + Amp 250–500 €:</strong> Gitarren: Yamaha
+              Pacifica 112V, Squier Affinity/Classic Vibe. Amps: Boss Katana
+              Mini/50, Fender Mustang LT25, Blackstar ID:Core.
             </li>
           </ul>
 
-          <h3>2. Verstärker (Amps): Die Stimme deiner E‑Gitarre</h3>
-          <p>
-            Der Amp formt den Klang mindestens so stark wie die Gitarre. Für
-            Zuhause zählen guter Sound bei <em>leiser</em> Lautstärke und
-            Kopfhörer‑Option.
-          </p>
-          <img
-            src="img/gitarrenverstarker-musikausrustung-foto-der-studioaufnahmesitzung.jpg"
-            alt="Gitarrenverstärker"
-            class="ausruestung-img"
-          />
+          <h3>Später aufrüsten</h3>
           <ul>
             <li>
-              <strong>Röhre:</strong> Warm, dynamisch, legendär im Crunch. Etwas
-              wartungsintensiver; kleine Combos sind wohnzimmertauglich.
+              <strong>Tuner‑Pedal</strong> fürs Board,
+              <strong>Overdrive</strong> (Biss),
+              <strong>Delay/Reverb</strong> (Raum).
             </li>
             <li>
-              <strong>Transistor:</strong> Robust, günstig, wartungsfrei.
-              Sauberer, direkter Ton.
-            </li>
-            <li>
-              <strong>Modeling‑Amp:</strong> Viele Sounds und Effekte in einem
-              Gerät – ideal zum Starten und Üben mit Kopfhörer.
+              <strong>Gepolstertes Gigbag</strong> und
+              <strong>Ersatzkabel</strong>.
             </li>
           </ul>
 
-          <h3>3. Effektpedale: Sound formen mit System</h3>
-          <p>
-            Pedale sitzen zwischen Gitarre und Amp und erweitern deinen Ton –
-            subtil bis spektakulär.
-          </p>
-          <img
-            src="img/nahaufnahmepedal-nahe-elektrischer-gitarre.jpg"
-            alt="Effektpedale nahe E‑Gitarre"
-            class="ausruestung-img"
-          />
+          <h3>Kauftipps</h3>
           <ul>
             <li>
-              <strong>Overdrive/Distortion/Fuzz:</strong> Von leichtem Anrauen
-              bis Heavy‑Gain.
+              <strong>Spielbarkeit</strong> schlägt Specs: Halsform, Gewicht,
+              Balance.
             </li>
             <li>
-              <strong>Chorus/Phaser/Flanger/Tremolo:</strong> Bewegung und
-              Breite im Sound.
+              <strong>Kopfhörer‑Üben</strong> spart Nerven. Modeling‑Amps
+              klingen leise am besten.
             </li>
             <li>
-              <strong>Delay/Reverb:</strong> Echo und Raum – mehr Tiefe, mehr
-              Atmosphäre.
-            </li>
-            <li>
-              <strong>Kompressor:</strong> Gleichmäßiger Pegel, mehr Sustain.
+              Gebraucht lohnt – aber nur mit <strong>Setup‑Check</strong> (Hals,
+              Bünde, Elektronik).
             </li>
           </ul>
-
-          <h3>4. Kabel, Plektren & Saiten</h3>
-          <p>
-            <strong>Kabel:</strong> Ein solides Instrumentenkabel verhindert
-            Brummen und Aussetzer – eine der besten Mini‑Investitionen.
-          </p>
-          <img
-            src="img/jack-audio-anschluss-wird-eine-buchse-eines-audiogerats-fur-musik-und-audio-angeschlossen.jpg"
-            alt="Klinkenkabel an Buchse"
-            class="ausruestung-img"
-          />
-          <p>
-            <strong>Plektren:</strong> Stärke bestimmt Feel & Ton. Dünn
-            (≈0,5 mm) fürs Strumming, mittel (≈0,7–0,9 mm) allround, dick
-            (≥1,0 mm) für präzise Riffs und Soli. Ein gemischtes Set zum Testen
-            ist ideal.
-          </p>
-          <img
-            src="img/bunte-picks-am-verstarker.jpg"
-            alt="Bunte Plektren am Verstärker"
-            class="ausruestung-img"
-          />
-          <p>
-            <strong>Saiten:</strong> Frische Saiten klingen besser und stimmen
-            stabiler. E‑Gitarre: .009–.042 (leicht) oder .010–.046 (Standard).
-            Akustik: .011–.052 (komfortabel) oder .012–.054 (voller Ton).
-          </p>
-          <p>
-            <strong>Stimmgerät:</strong> Clip‑Tuner sind präzise, schnell und
-            günstig – Pflicht für jeden Start.
-          </p>
         </article>
 
         <article id="lehrer">
