@@ -203,31 +203,26 @@ a {
 }
 
 /* ========== Navigation Enhancements ========== */
-/* Two-row layout for better spacing */
-#header nav ul {
+/* Two-row layout for better spacing (only on landing page, not on wiki pages) */
+body:not(.wiki-page) #header nav ul {
   flex-wrap: wrap !important;
   max-width: 52rem !important;
   margin: 0 auto !important;
 }
 
-#header nav ul li {
+body:not(.wiki-page) #header nav ul li {
   flex: 1 1 33.333% !important; /* 3 items per row */
 }
 
-/* Add top border to second row (items 4, 5, 6) */
-#header nav ul li:nth-child(n + 4) {
+/* Add top border to second row (items 4, 5, 6) on landing page only */
+body:not(.wiki-page) #header nav ul li:nth-child(n + 4) {
   border-top: solid 1px #ffffff !important;
 }
 
-/* Mobile: Reset to single column, remove conflicting borders */
+/* Mobile: keep single column; let theme draw horizontal borders */
 @media screen and (max-width: 480px) {
-  #header nav ul li {
+  body:not(.wiki-page) #header nav ul li {
     flex: 1 1 100% !important; /* Full width on mobile */
-  }
-
-  /* Remove the nth-child border-top on mobile since main.css handles it */
-  #header nav ul li:nth-child(n + 4) {
-    border-top: 0 !important;
   }
 }
 
@@ -253,6 +248,12 @@ a {
 
 #header nav a:hover:after {
   width: 100% !important;
+}
+
+/* Remove the vertical center divider from the theme nav to avoid a stray line
+   when the menu wraps to two rows or when returning via browser back/forward. */
+#header nav.use-middle:after {
+  display: none !important;
 }
 
 /* ========== Dropdown Menu Styling ========== */
